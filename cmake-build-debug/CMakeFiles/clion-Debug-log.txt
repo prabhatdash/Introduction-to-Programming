@@ -1,4 +1,13 @@
 /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/prabhatdas/Documents/GitHub/Introduction-to-Programming -B /Users/prabhatdas/Documents/GitHub/Introduction-to-Programming/cmake-build-debug
 -- Configuring done (0.2s)
--- Generating done (0.0s)
--- Build files have been written to: /Users/prabhatdas/Documents/GitHub/Introduction-to-Programming/cmake-build-debug
+CMake Error at CMakeLists.txt:8 (add_executable):
+  Cannot find source file:
+
+    sample.c
+
+
+CMake Error at CMakeLists.txt:8 (add_executable):
+  No SOURCES given to target: Introduction_to_Programming
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
